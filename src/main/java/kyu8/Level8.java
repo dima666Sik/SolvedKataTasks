@@ -1,6 +1,7 @@
 package kyu8;
 
 import java.util.Arrays;
+import java.util.List;
 
 public class Level8 {
 
@@ -148,5 +149,17 @@ public class Level8 {
             if (j > max) max = j;
         }
         return max;
+    }
+
+    public static int ConvertBinaryArrayToInt(List<Integer> binary) {
+        int numberSystem = 2;
+
+        int result = 0;
+
+        for (int i = 0, k = binary.size() - 1; i < binary.size(); i++, k--) {
+            result += (int) (binary.get(i) * Math.pow(numberSystem, k));
+        }
+
+        return result;
     }
 }

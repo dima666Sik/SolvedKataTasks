@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a334d4c-0f8b-46f1-a590-5c8c6a73469a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kyu8/Level8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kyu8/Level8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/kyu8/Level8Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/kyu8/Level8Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kyu8/Level8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kyu8/Level8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/kyu8/Level8Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/kyu8/Level8Test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +19,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="JUnit3 Test Class" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -35,27 +37,85 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "D:/GitProjects/SolvedKataTasks",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
-      <recent name="junit.framework.TestCase" />
       <recent name="" />
+      <recent name="junit.framework.TestCase" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="kyu4" />
       <recent name="kyu8" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Level8Test">
+  <component name="RunManager" selected="JUnit.Level4Test.sumStrings">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="SolvedKataTasks" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Level4Test.convertToIP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SolvedKataTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kyu4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kyu4" />
+      <option name="MAIN_CLASS_NAME" value="kyu4.Level4Test" />
+      <option name="METHOD_NAME" value="convertToIP" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Level4Test.stripComments" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SolvedKataTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kyu4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kyu4" />
+      <option name="MAIN_CLASS_NAME" value="kyu4.Level4Test" />
+      <option name="METHOD_NAME" value="stripComments" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Level4Test.sumStrings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SolvedKataTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kyu4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kyu4" />
+      <option name="MAIN_CLASS_NAME" value="kyu4.Level4Test" />
+      <option name="METHOD_NAME" value="sumStrings" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -77,6 +137,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Level4Test.sumStrings" />
+        <item itemvalue="JUnit.Level4Test.convertToIP" />
+        <item itemvalue="JUnit.Level4Test.stripComments" />
         <item itemvalue="JUnit.Level8Test" />
         <item itemvalue="Application.Main" />
       </list>
@@ -90,7 +153,52 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669413789491</updated>
+      <workItem from="1691252174097" duration="39110000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/kyu4/Level4.java</url>
+          <line>143</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/kyu4/Level4.java</url>
+          <line>144</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/kyu4/Level4.java</url>
+          <line>147</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/kyu4/Level4.java</url>
+          <line>150</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/kyu4/Level4.java</url>
+          <line>153</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/kyu4/Level4.java</url>
+          <line>157</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/kyu4/Level4.java</url>
+          <line>161</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
