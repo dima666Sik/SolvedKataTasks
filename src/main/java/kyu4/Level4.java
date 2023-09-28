@@ -128,4 +128,36 @@ public class Level4 {
     }
 
 
+    public static long digPow(int n, int p) {
+        int[] arrayIntValues = intValueToArrayInt(n);
+        long resultPowArrayIntValues = powArrayIntValues(arrayIntValues, p);
+
+        long result = (long) Math.ceil((double) resultPowArrayIntValues / n);
+
+        if (result != n) {
+            return -1;
+        }
+
+        return result;
+    }
+
+    private static long powArrayIntValues(int[] arrayIntValues, int pow) {
+        long result = 0;
+        for (int arrayIntValue : arrayIntValues) {
+            result += (long) Math.pow(arrayIntValue, pow++);
+        }
+        return result;
+    }
+
+    private static int[] intValueToArrayInt(int n) {
+        String[] arrayStrInt = String.valueOf(n).split("");
+        int[] originArrInt = new int[arrayStrInt.length];
+
+        for (int i = 0; i < arrayStrInt.length; i++) {
+            originArrInt[i] = Integer.parseInt(arrayStrInt[i]);
+        }
+
+        return originArrInt;
+    }
+
 }

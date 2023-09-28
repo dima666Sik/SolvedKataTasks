@@ -6,10 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="7a334d4c-0f8b-46f1-a590-5c8c6a73469a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kyu8/Level8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kyu8/Level8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/kyu8/Level8Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/kyu8/Level8Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kyu8/Level8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kyu8/Level8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/kyu8/Level8Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/kyu8/Level8Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kyu4/Level4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kyu4/Level4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kyu6/Level6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kyu6/Level6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/kyu4/Level4Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/kyu4/Level4Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kyu4/Level4$LargeNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kyu4/Level4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kyu4/Level4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kyu6/Level6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kyu6/Level6.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit3 Test Class" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
         <option value="JUnit4 Test Class" />
       </list>
     </option>
@@ -32,104 +34,116 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
   <component name="ProjectId" id="2I3ccN744Albiy7eVvtNWLLogLh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "D:/GitProjects/SolvedKataTasks",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/GitProjects/SolvedKataTasks&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
       <recent name="junit.framework.TestCase" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="kyu5" />
+      <recent name="kyu3" />
+      <recent name="kyu6" />
       <recent name="kyu4" />
       <recent name="kyu8" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Level4Test.sumStrings">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="JUnit.Level5Test$StringIncrementerTest.exampleTests">
+    <configuration name="Level5Test$PigLatin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SolvedKataTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kyu5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kyu5.Level5Test" />
+      <option name="MAIN_CLASS_NAME" value="kyu5.Level5Test$PigLatin" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Level4Test.convertToIP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Level5Test$PigLatinTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SolvedKataTasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kyu4.*" />
+          <option name="PATTERN" value="kyu5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="kyu4" />
-      <option name="MAIN_CLASS_NAME" value="kyu4.Level4Test" />
-      <option name="METHOD_NAME" value="convertToIP" />
+      <option name="PACKAGE_NAME" value="kyu5.Level5Test" />
+      <option name="MAIN_CLASS_NAME" value="kyu5.Level5Test$PigLatinTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Level5Test$StringIncrementerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SolvedKataTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kyu5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kyu5.Level5Test" />
+      <option name="MAIN_CLASS_NAME" value="kyu5.Level5Test$StringIncrementerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Level5Test$StringIncrementerTest.exampleTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SolvedKataTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kyu5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kyu5.Level5Test" />
+      <option name="MAIN_CLASS_NAME" value="kyu5.Level5Test$StringIncrementerTest" />
+      <option name="METHOD_NAME" value="exampleTests" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Level4Test.stripComments" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Level5Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SolvedKataTasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kyu4.*" />
+          <option name="PATTERN" value="kyu5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="kyu4" />
-      <option name="MAIN_CLASS_NAME" value="kyu4.Level4Test" />
-      <option name="METHOD_NAME" value="stripComments" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Level4Test.sumStrings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SolvedKataTasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kyu4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="kyu4" />
-      <option name="MAIN_CLASS_NAME" value="kyu4.Level4Test" />
-      <option name="METHOD_NAME" value="sumStrings" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Level8Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SolvedKataTasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kyu8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="kyu8" />
-      <option name="MAIN_CLASS_NAME" value="kyu8.Level8Test" />
+      <option name="PACKAGE_NAME" value="kyu5" />
+      <option name="MAIN_CLASS_NAME" value="kyu5.Level5Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Level4Test.sumStrings" />
-        <item itemvalue="JUnit.Level4Test.convertToIP" />
-        <item itemvalue="JUnit.Level4Test.stripComments" />
-        <item itemvalue="JUnit.Level8Test" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.Level5Test$StringIncrementerTest.exampleTests" />
+        <item itemvalue="JUnit.Level5Test$StringIncrementerTest" />
+        <item itemvalue="JUnit.Level5Test" />
+        <item itemvalue="JUnit.Level5Test$PigLatinTest" />
+        <item itemvalue="JUnit.Level5Test$PigLatin" />
       </list>
     </recent_temporary>
   </component>
@@ -154,51 +168,16 @@
       <option name="presentableId" value="Default" />
       <updated>1669413789491</updated>
       <workItem from="1691252174097" duration="39110000" />
+      <workItem from="1691832077891" duration="8902000" />
+      <workItem from="1692262376431" duration="598000" />
+      <workItem from="1692348417272" duration="140000" />
+      <workItem from="1692348588094" duration="58000" />
+      <workItem from="1692476066470" duration="5106000" />
+      <workItem from="1695510813469" duration="51349000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/kyu4/Level4.java</url>
-          <line>143</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/kyu4/Level4.java</url>
-          <line>144</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/kyu4/Level4.java</url>
-          <line>147</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/kyu4/Level4.java</url>
-          <line>150</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/kyu4/Level4.java</url>
-          <line>153</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/kyu4/Level4.java</url>
-          <line>157</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/kyu4/Level4.java</url>
-          <line>161</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
