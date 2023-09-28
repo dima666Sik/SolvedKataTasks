@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a334d4c-0f8b-46f1-a590-5c8c6a73469a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kyu4/Level4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kyu4/Level4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kyu6/Level6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kyu6/Level6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/kyu4/Level4Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/kyu4/Level4Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kyu4/Level4$LargeNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kyu4/Level4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kyu4/Level4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kyu6/Level6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kyu6/Level6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,48 +66,35 @@
       <recent name="kyu8" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Level5Test$StringIncrementerTest.exampleTests">
-    <configuration name="Level5Test$PigLatin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Level8Test">
+    <configuration name="Level3Test$BinomialExpansionTest.testANegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SolvedKataTasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kyu5.*" />
+          <option name="PATTERN" value="kyu3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="kyu5.Level5Test" />
-      <option name="MAIN_CLASS_NAME" value="kyu5.Level5Test$PigLatin" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="kyu3.Level3Test" />
+      <option name="MAIN_CLASS_NAME" value="kyu3.Level3Test$BinomialExpansionTest" />
+      <option name="METHOD_NAME" value="testANegative" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Level5Test$PigLatinTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Level4Test.stripComments" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SolvedKataTasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kyu5.*" />
+          <option name="PATTERN" value="kyu4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="kyu5.Level5Test" />
-      <option name="MAIN_CLASS_NAME" value="kyu5.Level5Test$PigLatinTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Level5Test$StringIncrementerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SolvedKataTasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kyu5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="kyu5.Level5Test" />
-      <option name="MAIN_CLASS_NAME" value="kyu5.Level5Test$StringIncrementerTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="kyu4" />
+      <option name="MAIN_CLASS_NAME" value="kyu4.Level4Test" />
+      <option name="METHOD_NAME" value="stripComments" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,16 +115,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Level5Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Level6Test.deleteNth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SolvedKataTasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kyu5.*" />
+          <option name="PATTERN" value="kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="kyu5" />
-      <option name="MAIN_CLASS_NAME" value="kyu5.Level5Test" />
+      <option name="PACKAGE_NAME" value="kyu6" />
+      <option name="MAIN_CLASS_NAME" value="kyu6.Level6Test" />
+      <option name="METHOD_NAME" value="deleteNth" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Level8Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SolvedKataTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kyu8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kyu8" />
+      <option name="MAIN_CLASS_NAME" value="kyu8.Level8Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Level8Test" />
+        <item itemvalue="JUnit.Level6Test.deleteNth" />
         <item itemvalue="JUnit.Level5Test$StringIncrementerTest.exampleTests" />
-        <item itemvalue="JUnit.Level5Test$StringIncrementerTest" />
-        <item itemvalue="JUnit.Level5Test" />
-        <item itemvalue="JUnit.Level5Test$PigLatinTest" />
-        <item itemvalue="JUnit.Level5Test$PigLatin" />
+        <item itemvalue="JUnit.Level4Test.stripComments" />
+        <item itemvalue="JUnit.Level3Test$BinomialExpansionTest.testANegative" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +170,7 @@
       <workItem from="1692348417272" duration="140000" />
       <workItem from="1692348588094" duration="58000" />
       <workItem from="1692476066470" duration="5106000" />
-      <workItem from="1695510813469" duration="51349000" />
+      <workItem from="1695510813469" duration="51821000" />
     </task>
     <servers />
   </component>
