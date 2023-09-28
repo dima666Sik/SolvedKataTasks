@@ -17,7 +17,7 @@
 
 ### Testing
 
-- The kata\`s is partially tested using `JUnit 5` to ensure its functionality and reliability.
+- The kata\`s is partially tested using `JUnit 4` to ensure its functionality and reliability.
 
 
 ## Author Info
