@@ -1,14 +1,14 @@
 package kyu7;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Level7 {
     public static int[] minMax(int[] arr) { //The highest profit wins!
-        return new int[]{Arrays.stream(arr).min().getAsInt(),Arrays.stream(arr).max().getAsInt()};
+        return new int[]{Arrays.stream(arr).min().getAsInt(), Arrays.stream(arr).max().getAsInt()};
     }
 
     public static String seriesSum(int n) { //Sum of the first nth term of Series
@@ -18,7 +18,7 @@ public class Level7 {
             arrayList.add(i);
         }
 
-        return String.format("%.2f", arrayList.stream().mapToDouble(iD->iD==1?1.0:(1d/(3*iD-2))).peek(System.out::println).sum());
+        return String.format("%.2f", arrayList.stream().mapToDouble(iD -> iD == 1 ? 1.0 : (1d / (3 * iD - 2))).peek(System.out::println).sum());
     }
 
     public static String highAndLow(String numbers) { //Highest and Lowest
@@ -56,15 +56,15 @@ public class Level7 {
         else if (n >= 1 && n <= 9) {
             return n * n;
         } else if (n >= 10 && n <= 99) {
-            return Integer.parseInt((n / 10)*(n / 10) + "" + (n % 10)*(n % 10));
+            return Integer.parseInt((n / 10) * (n / 10) + "" + (n % 10) * (n % 10));
         } else if (n >= 100 && n <= 999) {
 
-            return Integer.parseInt((n / 100)*(n / 100) + "" + expression + "" + (n % 10)*(n % 10));
+            return Integer.parseInt((n / 100) * (n / 100) + "" + expression + "" + (n % 10) * (n % 10));
         }
         if (n >= 1000) {
             return Integer.parseInt((n / 1000) * (n / 1000) + "" + (n / 100 % 10) * (n / 100 % 10) + ""
                     + expression + "" + (n % 10) * (n % 10));
-        }else return 0;
+        } else return 0;
     }
 
     public static String reverseWords(final String original) { //Reverse words
@@ -100,17 +100,18 @@ public class Level7 {
         char[] sArray = s.toUpperCase().toCharArray();
         String newStr = "";
         for (int i = 0; i < sArray.length; i++) {
-            if (i==0)newStr+=sArray[i];
-            else newStr+=sArray[i]+addLetters(s,i);
-            if(i<sArray.length-1) newStr+="-";
+            if (i == 0) newStr += sArray[i];
+            else newStr += sArray[i] + addLetters(s, i);
+            if (i < sArray.length - 1) newStr += "-";
         }
 
         return newStr;
     }
-    private static String addLetters(String s, int count){
+
+    private static String addLetters(String s, int count) {
         String str = "";
         for (int i = 0; i < count; i++) {
-            str+=s.toLowerCase().charAt(count)+"";
+            str += s.toLowerCase().charAt(count) + "";
         }
         return str;
     }
@@ -118,12 +119,41 @@ public class Level7 {
     public static int countPassengers(ArrayList<int[]> stops) { //Number of People in the Bus
         int count = stops.get(0)[0];
         for (int i = 0, j = 0; i < Stream.of(stops).mapToInt(m -> m.toArray().length).sum(); i++) {
-            if(i>0){
-                count+=stops.get(i)[j];
+            if (i > 0) {
+                count += stops.get(i)[j];
             }
-            count -= stops.get(i)[j+1];
+            count -= stops.get(i)[j + 1];
         }
         return count;
+    }
+
+    public static class TwoToOne {
+
+        public static String longest(String s1, String s2) {
+            Set<String> stringSet = new TreeSet<>(List.of(s1.split("")));
+            stringSet.addAll(List.of(s2.split("")));
+            return String.join("", stringSet);
+        }
+    }
+
+    public static class Solution {
+        public static String repeatStr(final int repeat, final String string) {
+            return string.repeat(repeat);
+        }
+    }
+
+    public static class Arge {
+
+        public static int nbYear(int p0, double percent, int aug, int p) {
+            System.out.println(p0 + " " + percent + " " + aug + " " + p);
+            int result = p0;
+            int yearCount = 0;
+            while (result < p) {
+                result = (int)(result + result * percent / 100 + aug);
+                yearCount++;
+            }
+            return yearCount;
+        }
     }
 
 }

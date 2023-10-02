@@ -1,6 +1,7 @@
 package kyu3;
 
 
+import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.experimental.runners.Enclosed;
 import org.junit.runner.RunWith;
@@ -9,6 +10,7 @@ import static org.junit.Assert.assertEquals;
 
 @RunWith(Enclosed.class)
 public class Level3Test {
+
     public static class BinomialExpansionTest {
         @Test
         public void testBPositive() {
