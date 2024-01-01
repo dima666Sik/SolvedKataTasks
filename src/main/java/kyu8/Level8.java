@@ -162,4 +162,13 @@ public class Level8 {
 
         return result;
     }
+
+    public static String twoSort(String[] s) {
+        return Arrays.stream(s)
+                .parallel()
+                .sorted()
+                .findFirst()
+                .orElseThrow(() -> new IllegalArgumentException("List is empty."))
+                .replaceAll("(?<=\\w)(?=\\w)","***");
+    }
 }

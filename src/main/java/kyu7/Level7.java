@@ -13,7 +13,6 @@ public class Level7 {
 
     public static String seriesSum(int n) { //Sum of the first nth term of Series
         ArrayList<Integer> arrayList = new ArrayList<>(n);
-
         for (int i = n; i > 0; i--) {
             arrayList.add(i);
         }
@@ -153,6 +152,12 @@ public class Level7 {
                 yearCount++;
             }
             return yearCount;
+        }
+    }
+
+    public static class Printer {
+        public static String printerError(String s) {
+            return Arrays.stream(s.split("")).filter(el-> el.matches("[^a-m]")).count() + "/" + s.length();
         }
     }
 
